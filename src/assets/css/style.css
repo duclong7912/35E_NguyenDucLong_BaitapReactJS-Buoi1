@@ -1,0 +1,89 @@
+/* Header */
+.navbar{
+    padding: 0.5rem 0;
+    background-color: rgb(33, 37, 41) !important;
+}
+
+.navbar-brand{
+    color: white !important;
+}
+.navbar .navbar-nav .active > .nav-link {
+    color: white
+}
+.navbar .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+}
+
+/* Banner */
+.banner {
+    padding: 50px 0;
+}
+
+.banner__wrapper {
+    padding: 48px;
+    border-radius: 5px;
+    background-color: rgb(248, 249, 250);
+}
+
+.banner__content{
+    margin: 48px;
+    text-align: center;
+}
+
+.banner__content h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.banner__content p{
+    font-size: 24px;
+}
+
+.btn-primary{
+    padding: 8px 16px;
+    font-size: 20px;
+}
+
+/* Item */
+
+.item{
+    padding-top: 24px;
+}
+
+.item__card{
+    background-color: rgb(248, 249, 250);
+    text-align: center;
+    border-radius: 5px;
+}
+
+.item__content{
+    padding: 50px;
+    padding-top: 0;
+}
+
+.item__icon .fa-tv{
+    transform: rotate(180deg);
+}
+
+.item__icon i{
+    color: white;
+    font-size: 30px;
+    width: 64px;
+    height: 64px;
+    line-height: 64px;
+    background-color: rgb(13, 110, 253);
+    border-radius: 5px;
+    margin-top: -24px;
+    margin-bottom: 24px;
+}
+
+.item__content h2{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* Footer */
+
+.bg-dark {
+    background-color:rgb(33, 37, 41) !important;
+}
